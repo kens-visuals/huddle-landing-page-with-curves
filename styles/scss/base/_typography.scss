@@ -1,7 +1,7 @@
 @use '../abstracts/index.scss' as *;
 
 .heading {
-  font-size: clamp(2.4rem, 6vw, 4.5rem);
+  font-size: clamp(2.4rem, 6vw, 4.8rem);
   font-family: $font-secondary;
   text-align: center;
   margin-bottom: 2rem;
@@ -18,8 +18,8 @@
 }
 
 .text {
-  max-width: 55rem;
-  font-size: clamp(1.4rem, 4vw, 1.8rem);
+  max-width: 62rem;
+  font-size: clamp(1.4rem, 4vw, 2rem);
   text-align: center;
   line-height: 1.5;
   margin: 0 auto;

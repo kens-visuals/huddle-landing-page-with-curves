@@ -51,7 +51,7 @@ body {
 }
 
 .heading {
-  font-size: clamp(2.4rem, 6vw, 4.5rem);
+  font-size: clamp(2.4rem, 6vw, 4.8rem);
   font-family: "Poppins", sans-serif;
   text-align: center;
   margin-bottom: 2rem;
@@ -66,25 +66,25 @@ body {
 }
 
 .text {
-  max-width: 55rem;
-  font-size: clamp(1.4rem, 4vw, 1.8rem);
+  max-width: 62rem;
+  font-size: clamp(1.4rem, 4vw, 2rem);
   text-align: center;
   line-height: 1.5;
   margin: 0 auto;
   padding: 0 1rem;
 }
 .container {
-  width: 88%;
-  max-width: 110rem;
+  width: 90%;
+  max-width: 130rem;
   margin: 0 auto;
 }
 
 .header {
-  margin: 2.5rem 0 11.5rem 0;
+  margin-top: 2.5rem;
 }
 @media (min-width: 810px) {
   .header {
-    margin: 6.5rem 0 21.5rem 0;
+    margin-top: 7.5rem;
   }
 }
 .header__wrapper {
@@ -97,10 +97,18 @@ body {
 }
 @media (min-width: 810px) {
   .header__img {
-    width: 20rem;
+    width: 25rem;
   }
 }
 
+.intro {
+  margin: 11.5rem 0 10rem 0;
+}
+@media (min-width: 810px) {
+  .intro {
+    margin: 23rem 0 10rem 0;
+  }
+}
 .intro__wrapper {
   display: flex;
   align-items: center;
@@ -111,14 +119,14 @@ body {
   margin-top: 4.5rem;
 }
 .intro__img {
-  margin: 10rem 0;
+  margin: 11rem auto;
   padding: 0 1.5rem;
 }
 .intro__numbers {
-  margin: 15rem 0 5rem 0;
+  margin-top: 15rem;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: column;
   gap: 11.5rem;
 }
@@ -164,21 +172,26 @@ body {
   font-weight: 700;
 }
 .intro__number-span--primary {
-  font-size: clamp(6rem, 12vw, 12rem);
+  font-size: clamp(6rem, 12vw, 9.5rem);
 }
 .intro__number-span--secondary {
-  font-size: clamp(5.2rem, 12vw, 12rem);
+  font-size: clamp(5.2rem, 12vw, 9.5rem);
 }
 
 .description {
   padding: 8rem 0 5rem 0;
 }
 .description__pattern {
-  height: 10rem;
   width: 100%;
+  height: 10rem;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
+}
+@media (min-width: 810px) {
+  .description__pattern {
+    height: 20rem;
+  }
 }
 .description__pattern--one-top {
   background-image: url("../../../images/bg-section-top-mobile-1.svg");
@@ -355,7 +368,7 @@ body {
 .btn {
   width: 20rem;
   background-color: #ff52bf;
-  font-size: clamp(1.3rem, 4vw, 1.8rem);
+  font-size: clamp(1.3rem, 4vw, 2rem);
   font-weight: 600;
   text-align: center;
   border: 0;
@@ -365,8 +378,8 @@ body {
 }
 @media (min-width: 810px) {
   .btn {
-    width: 35rem;
-    padding: 2.2rem 0;
+    width: 40rem;
+    padding: 2.6rem 0;
   }
 }
 .btn:link, .btn:visited {
@@ -377,14 +390,15 @@ body {
   width: unset;
   color: #ff8fd8;
   background-color: unset;
-  font-size: clamp(1rem, 4vw, 1.8rem);
+  font-size: clamp(1rem, 4vw, 1.6rem);
   border: 0.1rem solid #ff52bf;
+  box-shadow: rgba(255, 82, 191, 0.2) 0px 0px 12px 0px;
   margin-top: 0;
   padding: 0.4rem 1.6rem;
 }
 @media (min-width: 810px) {
   .btn--white:link, .btn--white:visited {
-    padding: 0.8rem 2.6rem;
+    padding: 0.7rem 2.6rem;
   }
 }
 

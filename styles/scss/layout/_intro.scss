@@ -1,6 +1,12 @@
 @use '../abstracts/index.scss' as *;
 
 .intro {
+  margin: 11.5rem 0 10rem 0;
+
+  @media (min-width: 810px) {
+    margin: 23rem 0 10rem 0;
+  }
+
   &__wrapper {
     display: flex;
     align-items: center;
@@ -13,15 +19,15 @@
   }
 
   &__img {
-    margin: 10rem 0;
+    margin: 11rem auto;
     padding: 0 1.5rem;
   }
 
   &__numbers {
-    margin: 15rem 0 5rem 0;
+    margin-top: 15rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: column;
     gap: 11.5rem;
 
@@ -72,11 +78,11 @@
       font-weight: 700;
 
       &--primary {
-        font-size: clamp(6rem, 12vw, 12rem);
+        font-size: clamp(6rem, 12vw, 9.5rem);
       }
 
       &--secondary {
-        font-size: clamp(5.2rem, 12vw, 12rem);
+        font-size: clamp(5.2rem, 12vw, 9.5rem);
       }
     }
   }
