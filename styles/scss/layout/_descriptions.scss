@@ -4,14 +4,14 @@
 }
 
 .description {
-  padding: 10rem 0 5rem 0;
+  padding: 8rem 0 5rem 0;
 
   &__pattern {
     height: 10rem;
     width: 100%;
     background-repeat: no-repeat;
     background-position: top;
-    background-size: contain;
+    background-size: cover;
 
     &--one-top {
       background-image: url('../../../images/bg-section-top-mobile-1.svg');
@@ -35,7 +35,7 @@
   }
 
   &--reverse {
-    padding: 5rem 0 10rem 0;
+    padding: 10rem 0;
   }
 
   &__wrapper {

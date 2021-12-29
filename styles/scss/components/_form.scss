@@ -2,14 +2,35 @@
 
 .footer {
   &__error {
+    color: $color-primary--dark;
+    margin-bottom: 1rem;
   }
 
   &__form {
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
   }
 
   &__input {
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 1.3rem;
+
+    &:focus-visible {
+      outline: 0.3rem solid $color-primary;
+    }
   }
 
   &__btn {
+    width: 50%;
+    color: $color-tertiary;
+    background-color: $color-primary;
+    border: 0;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    padding: 1.2rem 0;
+    align-self: flex-end;
   }
 }

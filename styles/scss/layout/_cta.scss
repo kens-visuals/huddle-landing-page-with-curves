@@ -1,5 +1,13 @@
 @use '../abstracts/index.scss' as *;
 
 .cta {
-  padding: 5rem 0 20rem 0;
+  padding: 5rem 0 15rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &__btn {
+    margin-top: 0;
+  }
 }
