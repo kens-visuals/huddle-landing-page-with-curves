@@ -4,6 +4,23 @@
   &__error {
     color: $color-primary--dark;
     margin-bottom: 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+
+    &.error--is-visible,
+    &.success--is-visible {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    &.error--is-visible {
+      color: $color-primary--dark;
+    }
+
+    &.success--is-visible {
+      color: $color-tertiary;
+    }
   }
 
   &__form {
@@ -23,9 +40,16 @@
     border: 0;
     border-radius: 0.5rem;
     padding: 1.3rem;
+    transition: all 0.1s;
 
     &:focus-visible {
       outline: 0.3rem solid $color-primary;
+    }
+
+    &.error--is-visible {
+      &:focus-visible {
+        outline: 0.3rem solid $color-primary--dark;
+      }
     }
 
     @media (min-width: 1140px) {

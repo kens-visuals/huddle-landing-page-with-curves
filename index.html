@@ -18,6 +18,8 @@
     />
     <link rel="stylesheet" href="styles/css/style.css" />
 
+    <script defer src="js/script.js"></script>
+
     <title>Frontend Mentor | Huddle lLanding Page with Curves</title>
   </head>
   <body>
@@ -80,10 +82,10 @@
               src="./images/illustration-grow-together.svg"
               alt=""
               aria-hidden="true"
-              class="description__img"
+              class="description__img js-item"
             />
 
-            <div class="description__content">
+            <div class="description__content js-content">
               <h2 class="heading heading--secondary">Grow Together</h2>
 
               <p class="text text--secondary">
@@ -106,10 +108,10 @@
               src="./images/illustration-flowing-conversation.svg"
               alt=""
               aria-hidden="true"
-              class="description__img"
+              class="description__img js-item"
             />
 
-            <div class="description__content">
+            <div class="description__content js-content">
               <h2 class="heading heading--secondary">Flowing Conversations</h2>
 
               <p class="text text--secondary">
@@ -129,10 +131,10 @@
               src="./images/illustration-your-users.svg"
               alt=""
               aria-hidden="true"
-              class="description__img"
+              class="description__img js-item"
             />
 
-            <div class="description__content">
+            <div class="description__content js-content">
               <h2 class="description__heading heading heading--secondary">
                 Your Users
               </h2>
@@ -172,10 +174,12 @@
               address
             </p>
 
-            <p class="footer__error js-error"></p>
+            <p class="footer__error js-error">Error</p>
             <form action="#" class="footer__form js-form">
               <input type="text" class="footer__input js-input" name="email" />
-              <button type="submit" class="footer__btn">Subscribe</button>
+              <button type="submit" class="footer__btn js-btn">
+                Subscribe
+              </button>
             </form>
           </div>
 
