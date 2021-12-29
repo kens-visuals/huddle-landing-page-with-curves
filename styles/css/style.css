@@ -278,6 +278,12 @@ body {
 @media (min-width: 810px) {
   .description__img {
     width: 52rem;
+    margin: 8rem auto;
+  }
+}
+@media (min-width: 1140px) {
+  .description__img {
+    width: 52rem;
     margin: 0;
   }
 }
@@ -383,7 +389,7 @@ body {
   cursor: pointer;
 }
 .footer__social-item:hover .footer__social-icon {
-  fill: #ff8fd8;
+  fill: #ff52bf;
 }
 .footer__social-icon {
   fill: #f5faff;
@@ -439,8 +445,13 @@ body {
   border: 0;
   border-radius: 0.5rem;
   font-weight: 600;
-  padding: 1.2rem 0;
+  padding: 1.3rem 0;
   align-self: flex-end;
+  transition: all 0.3s;
+}
+.footer__btn:hover, .footer__btn:active {
+  cursor: pointer;
+  background-color: #ff8fd8;
 }
 @media (min-width: 1140px) {
   .footer__btn {
@@ -458,6 +469,7 @@ body {
   border-radius: 5rem;
   padding: 1.2rem 0;
   display: inline-block;
+  transition: all 0.3s;
 }
 @media (min-width: 810px) {
   .btn {
@@ -469,6 +481,10 @@ body {
   color: #f5faff;
   text-decoration: none;
 }
+.btn:hover, .btn:active {
+  cursor: pointer;
+  background-color: #ff8fd8;
+}
 .btn--white:link, .btn--white:visited {
   width: unset;
   color: #ff8fd8;
@@ -478,6 +494,10 @@ body {
   box-shadow: rgba(255, 82, 191, 0.2) 0px 0px 12px 0px;
   margin-top: 0;
   padding: 0.4rem 1.6rem;
+}
+.btn--white:hover, .btn--white:active {
+  cursor: pointer;
+  opacity: 0.5;
 }
 @media (min-width: 810px) {
   .btn--white:link, .btn--white:visited {

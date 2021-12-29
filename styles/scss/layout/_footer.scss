@@ -73,9 +73,6 @@
   }
 
   &__info {
-    &-list {
-    }
-
     &-item {
       margin-bottom: 1rem;
 
@@ -112,12 +109,9 @@
         cursor: pointer;
 
         .footer__social-icon {
-          fill: $color-primary--light;
+          fill: $color-primary;
         }
       }
-    }
-
-    &-link {
     }
 
     &-icon {

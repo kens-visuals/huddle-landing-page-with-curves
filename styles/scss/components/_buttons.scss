@@ -10,6 +10,7 @@
   border-radius: 5rem;
   padding: 1.2rem 0;
   display: inline-block;
+  transition: all 0.3s;
 
   @media (min-width: 810px) {
     width: 40rem;
@@ -20,6 +21,12 @@
   &:visited {
     color: $color-tertiary;
     text-decoration: none;
+  }
+
+  &:hover,
+  &:active {
+    cursor: pointer;
+    background-color: $color-primary--light;
   }
 
   &--white {
@@ -33,6 +40,12 @@
       box-shadow: rgba($color-primary, 0.2) 0px 0px 12px 0px;
       margin-top: 0;
       padding: 0.4rem 1.6rem;
+    }
+
+    &:hover,
+    &:active {
+      cursor: pointer;
+      opacity: 0.5;
     }
 
     @media (min-width: 810px) {

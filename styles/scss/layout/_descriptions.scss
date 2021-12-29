@@ -1,8 +1,5 @@
 @use '../abstracts/index.scss' as *;
 
-.descriptions {
-}
-
 .description {
   padding: 8rem 0 5rem 0;
 
@@ -78,6 +75,11 @@
     margin: 0 auto 8rem auto;
 
     @media (min-width: 810px) {
+      width: 52rem;
+      margin: 8rem auto;
+    }
+
+    @media (min-width: 1140px) {
       width: 52rem;
       margin: 0;
     }
