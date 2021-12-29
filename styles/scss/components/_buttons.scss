@@ -1,6 +1,32 @@
 @use '../abstracts/index.scss' as *;
 
 .btn {
+  width: 20rem;
+  background-color: $color-primary;
+  font-size: 1.3rem;
+  text-align: center;
+  border: 0;
+  border-radius: 5rem;
+  margin-top: 4.5rem;
+  padding: 1.2rem 0;
+  display: inline-block;
+
+  &:link,
+  &:visited {
+    color: $color-tertiary;
+    text-decoration: none;
+  }
+
   &--white {
+    &:link,
+    &:visited {
+      width: unset;
+      color: $color-primary--light;
+      background-color: unset;
+      font-size: 1rem;
+      border: 0.1rem solid $color-primary;
+      margin-top: 0;
+      padding: 0.4rem 1.6rem;
+    }
   }
 }

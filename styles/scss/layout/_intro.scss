@@ -1,14 +1,67 @@
 @use '../abstracts/index.scss' as *;
 
 .intro {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   &__img {
+    margin: 10rem 0;
+    padding: 0 1.5rem;
   }
 
   &__numbers {
+    margin: 15rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 11.5rem;
   }
 
   &__number {
+    color: rgba($color-secondary, 0.4);
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    &::before {
+      position: absolute;
+      top: -3.5rem;
+      left: -0.5rem;
+    }
+
+    &--humans {
+      &::before {
+        content: url('../../../images/icon-communities.svg');
+        transform: scale(0.65);
+      }
+    }
+
+    &--msg {
+      &::before {
+        content: url('../../../images/icon-messages.svg');
+        transform: scale(0.5);
+      }
+    }
+
     &-span {
+      color: $color-secondary;
+      font-weight: 700;
+
+      &--primary {
+        font-size: 6rem;
+      }
+
+      &--secondary {
+        font-size: 5.2rem;
+      }
     }
   }
 }
