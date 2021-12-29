@@ -21,21 +21,214 @@
     <title>Frontend Mentor | Huddle lLanding Page with Curves</title>
   </head>
   <body>
-    Try it free Build The Community Your Fans Will Love Huddle re-imagines the
-    way we build communities. You have a voice, but so does your audience.
-    Create connections with your users as you engage in genuine discussion. Get
-    Started For Free 1.4k+ Communities Formed 2.7m+ Messages Sent Grow Together
-    Generate meaningful discussions with your audience and build a strong, loyal
-    community. Think of the insightful conversations you miss out on with a
-    feedback form. Flowing Conversations You wouldn't paginate a conversation in
-    real life, so why do it online? Our threads have just-in-time loading for a
-    more natural flow. Your Users It takes no time at all to integrate Huddle
-    with your app's authentication solution. This means, once signed in to your
-    app, your users can start chatting immediately. Ready To Build Your
-    Community? Get Started For Free Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices
-    quis sem. Phone: +1-543-123-4567 example@huddle.com Newsletter To recieve
-    tips on how to grow your community, sign up to our weekly newsletter. We’ll
-    never send you spam or pass on your email address Subscribe
+    <header class="header">
+      <div class="header__wrapper container">
+        <img src="./images/logo.svg" alt="Huddle" class="header__img" />
+
+        <a href="#" class="btn btn--white">Try it free</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="intro" aria-label="intro">
+        <div class="container">
+          <h1 class="heading">Build The Community Your Fans Will Love</h1>
+
+          <p class="text">
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+
+          <a href="#" class="btn">Get Started For Free</a>
+
+          <img
+            src="./images/screen-mockups.svg"
+            alt=""
+            aria-hidden="true"
+            class="intro__img"
+          />
+
+          <div class="intro__numbers">
+            <p class="intro__number">
+              <span class="intro__number-span">1.4k+</span> Communities Formed
+            </p>
+
+            <p class="intro__number">
+              <span class="intro__number-span">2.7m+</span> Messages Sent
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="descriptions" aria-label="descriptions">
+        <div class="description">
+          <div class="description__wrapper container">
+            <img
+              src="./images/illustration-grow-together.svg"
+              alt=""
+              aria-hidden="true"
+              class="description__img"
+            />
+
+            <h2 class="heading heading--secondary">Grow Together</h2>
+
+            <p class="text text--secondary">
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
+        </div>
+
+        <div class="description description--reverse">
+          <div class="description__wrapper container">
+            <img
+              src="./images/illustration-flowing-conversation.svg"
+              alt=""
+              aria-hidden="true"
+              class="description__img"
+            />
+
+            <h2 class="heading heading--secondary">Flowing Conversations</h2>
+
+            <p class="text text--secondary">
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
+        </div>
+
+        <div class="description">
+          <div class="description__wrapper container">
+            <img
+              src="./images/illustration-your-users.svg"
+              alt=""
+              aria-hidden="true"
+              class="description__img"
+            />
+
+            <h2 class="heading heading--secondary">Your Users</h2>
+
+            <p class="text text--secondary">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" aria-label="cta">
+        <h3 class="heading heading--tertiary">
+          Ready To Build Your Community?
+        </h3>
+
+        <a href="#" class="btn">Get Started For Free</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__newsletter">
+        <h3 class="footer__heading">Newsletter</h3>
+        <p class="text text--secondary">
+          To recieve tips on how to grow your community, sign up to our weekly
+          newsletter. We’ll never send you spam or pass on your email address
+        </p>
+
+        <p class="footer__error">Error</p>
+        <form action="#" class="footer__form">
+          <input type="text" class="footer__input" name="email" />
+          <button type="submit" class="footer__btn">Subscribe</button>
+        </form>
+      </div>
+
+      <img src="./images/logo.svg" alt="Huddle" class="footer__logo" />
+
+      <p class="footer__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla
+        quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+      </p>
+
+      <ul class="footer__info-list">
+        <li class="footer__info-item footer__info-item--phone">
+          Phone: +1-543-123-4567
+        </li>
+        <li class="footer__info-item footer__info-item--email">
+          example@huddle.com
+        </li>
+      </ul>
+
+      <ul class="footer__social-list">
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link" aria-label="facebook">
+            <svg
+              width="24"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              class="footer__social-icon"
+            >
+              <path
+                d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"
+                fill="#4C545C"
+                fill-rule="nonzero"
+              />
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link" aria-label="twitter">
+            <svg
+              width="24"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              class="footer__social-icon"
+            >
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
+                fill="#4C545C"
+                fill-rule="nonzero"
+              />
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link" aria-label="instagram">
+            <svg
+              width="24"
+              height="20"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              class="footer__social-icon"
+            >
+              <path
+                d="M24 2.557a9.83 9.83 0 01-2.828.775A4.932 4.932 0 0023.337.608a9.864 9.864 0 01-3.127 1.195A4.916 4.916 0 0016.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 1.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 17.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 2.557z"
+                fill="#4C545C"
+                fill-rule="nonzero"
+              />
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+      <p class="footer__attribution">
+        Challenge by
+        <a
+          class="footer__attribution-link"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          class="footer__attribution-link"
+          href="https://github.com/kens-visuals"
+          target="_blank"
+          >Kens-Visuals</a
+        >.
+      </p>
+    </footer>
   </body>
 </html>
