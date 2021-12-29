@@ -54,11 +54,23 @@
     background-color: $color-tertiary;
   }
 
-  &--reverse {
+  &--white {
     padding: 10rem 0;
   }
 
   &__wrapper {
+    @media (min-width: 1140px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: row-reverse;
+    }
+
+    &--reverse {
+      @media (min-width: 1140px) {
+        flex-direction: row;
+      }
+    }
   }
 
   &__img {
@@ -66,7 +78,13 @@
     margin: 0 auto 8rem auto;
 
     @media (min-width: 810px) {
-      width: 46rem;
+      width: 52rem;
+      margin: 0;
+    }
+  }
+
+  &__content {
+    @media (min-width: 1140px) {
     }
   }
 }
