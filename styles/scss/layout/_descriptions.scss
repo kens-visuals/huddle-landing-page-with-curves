@@ -1,9 +1,15 @@
 @use '../abstracts/index.scss' as *;
 
-.header {
+.descriptions {
+}
+
+.description {
   &__wrapper {
   }
 
   &__img {
+  }
+
+  &--reverse {
   }
 }
