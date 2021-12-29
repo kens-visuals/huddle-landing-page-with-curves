@@ -177,7 +177,7 @@ body {
   left: -0.5rem;
 }
 .intro__number--humans::before {
-  content: url("../../../images/icon-communities.svg");
+  content: url("./../../images/icon-communities.svg");
   transform: scale(0.65);
 }
 @media (min-width: 810px) {
@@ -186,7 +186,7 @@ body {
   }
 }
 .intro__number--msg::before {
-  content: url("../../../images/icon-messages.svg");
+  content: url("./../../images/icon-messages.svg");
   transform: scale(0.5);
 }
 @media (min-width: 810px) {
