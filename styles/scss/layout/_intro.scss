@@ -21,14 +21,18 @@
     margin: 15rem 0 5rem 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     gap: 11.5rem;
+
+    @media (min-width: 810px) {
+      flex-direction: row;
+    }
   }
 
   &__number {
     color: rgba($color-secondary, 0.4);
-    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
     text-align: center;
     position: relative;
     display: flex;
@@ -45,6 +49,10 @@
       &::before {
         content: url('../../../images/icon-communities.svg');
         transform: scale(0.65);
+
+        @media (min-width: 810px) {
+          transform: scale(1);
+        }
       }
     }
 
@@ -52,6 +60,10 @@
       &::before {
         content: url('../../../images/icon-messages.svg');
         transform: scale(0.5);
+
+        @media (min-width: 810px) {
+          transform: scale(1);
+        }
       }
     }
 
@@ -60,11 +72,11 @@
       font-weight: 700;
 
       &--primary {
-        font-size: 6rem;
+        font-size: clamp(6rem, 12vw, 12rem);
       }
 
       &--secondary {
-        font-size: 5.2rem;
+        font-size: clamp(5.2rem, 12vw, 12rem);
       }
     }
   }

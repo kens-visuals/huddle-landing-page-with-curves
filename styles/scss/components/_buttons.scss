@@ -3,12 +3,18 @@
 .btn {
   width: 20rem;
   background-color: $color-primary;
-  font-size: 1.3rem;
+  font-size: clamp(1.3rem, 4vw, 1.8rem);
+  font-weight: 600;
   text-align: center;
   border: 0;
   border-radius: 5rem;
   padding: 1.2rem 0;
   display: inline-block;
+
+  @media (min-width: 810px) {
+    width: 35rem;
+    padding: 2.2rem 0;
+  }
 
   &:link,
   &:visited {
