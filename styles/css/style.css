@@ -77,6 +77,11 @@ body {
 .header {
   margin: 2.5rem 0 11.5rem 0;
 }
+@media (min-width: 810px) {
+  .header {
+    margin: 6.5rem 0 21.5rem 0;
+  }
+}
 .header__wrapper {
   display: flex;
   align-items: center;
@@ -84,6 +89,11 @@ body {
 }
 .header__img {
   width: 10rem;
+}
+@media (min-width: 810px) {
+  .header__img {
+    width: 20rem;
+  }
 }
 
 .intro__wrapper {
@@ -337,10 +347,15 @@ body {
   width: unset;
   color: #ff8fd8;
   background-color: unset;
-  font-size: 1rem;
+  font-size: clamp(1rem, 4vw, 1.8rem);
   border: 0.1rem solid #ff52bf;
   margin-top: 0;
   padding: 0.4rem 1.6rem;
+}
+@media (min-width: 810px) {
+  .btn--white:link, .btn--white:visited {
+    padding: 0.8rem 2.6rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

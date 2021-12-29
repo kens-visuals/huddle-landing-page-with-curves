@@ -28,10 +28,17 @@
       width: unset;
       color: $color-primary--light;
       background-color: unset;
-      font-size: 1rem;
+      font-size: clamp(1rem, 4vw, 1.8rem);
       border: 0.1rem solid $color-primary;
       margin-top: 0;
       padding: 0.4rem 1.6rem;
+    }
+
+    @media (min-width: 810px) {
+      &:link,
+      &:visited {
+        padding: 0.8rem 2.6rem;
+      }
     }
   }
 }
