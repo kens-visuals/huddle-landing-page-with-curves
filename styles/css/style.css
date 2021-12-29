@@ -52,6 +52,10 @@ body {
   margin-bottom: 2rem;
   padding: 0 1rem;
 }
+.heading--secondary {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
 .text {
   font-size: 1.4rem;
   text-align: center;
@@ -87,7 +91,7 @@ body {
   padding: 0 1.5rem;
 }
 .intro__numbers {
-  margin: 15rem 0;
+  margin: 15rem 0 2rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -125,6 +129,43 @@ body {
 }
 .intro__number-span--secondary {
   font-size: 5.2rem;
+}
+
+.description {
+  padding: 10rem 0 5rem 0;
+}
+.description__pattern {
+  height: 10rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+.description__pattern--one-top {
+  background-image: url("../../../images/bg-section-top-mobile-1.svg");
+}
+.description__pattern--one-bottom {
+  background-image: url("../../../images/bg-section-bottom-mobile-1.svg");
+}
+.description__pattern--two-top {
+  background-image: url("../../../images/bg-section-top-mobile-2.svg");
+}
+.description__pattern--two-bottom {
+  background-image: url("../../../images/bg-section-bottom-mobile-2.svg");
+}
+.description--blue {
+  background-color: #f5faff;
+}
+.description--reverse {
+  padding: 5rem 0 10rem 0;
+}
+.description__img {
+  width: 26rem;
+  margin: 0 auto 8rem auto;
+}
+
+.cta {
+  padding: 5rem 0 20rem 0;
 }
 
 .footer__logo {
