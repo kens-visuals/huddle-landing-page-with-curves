@@ -46,7 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-That's it, this is the last challenge in **JUNIOR** level, and I managed to finish the whole section within a month. Which also means that I've reached my goal of finishing all projects in **JUNIOR** level before the end of the year. I'm really excited about this and what's coming next, in terms of projects and all the cool stuff I'm going to learn and practice. For the next level, I'm planning to learn React and start the upcoming projects with `React`, because I feel quite confident in `Vanilla JS` and `DOM manipulations`. So, I don't want to miss the chance of practicing `React` with all those awesome projects in **INTERMEDIATE** level.
+That's it, this is the last challenge in **JUNIOR** level, and I managed to finish the whole section within a month. Which also means that I've reached my goal of finishing all projects in **JUNIOR** level before the end of the year. I'm really excited about this and what's coming next, in terms of projects and all the cool stuff that I'm going to learn and practice. For the next level, I'm planning to learn React and start the upcoming projects with `React`, because I feel quite confident in `Vanilla JS` and `DOM manipulations`. So, I don't want to miss the chance of practicing `React` with all those awesome projects in **INTERMEDIATE** level.
 
 ## Author
 
