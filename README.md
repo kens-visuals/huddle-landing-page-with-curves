@@ -1,6 +1,6 @@
-# Frontend Mentor - PROJECT NAME Solution
+# Frontend Mentor - Huddle Landing Page with Curves Solution
 
-This is a solution to the [PROJECT NAME Challenge on Frontend Mentor](PROJECT LINK).
+This is a solution to the [Huddle Landing Page with Curves Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2).
 
 ## Table of contents
 
@@ -11,7 +11,6 @@ This is a solution to the [PROJECT NAME Challenge on Frontend Mentor](PROJECT LI
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -21,8 +20,9 @@ This is a solution to the [PROJECT NAME Challenge on Frontend Mentor](PROJECT LI
 
 Users should be able to:
 
-- OBJECTIVE_1
-- OBJECTIVE_2
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Show an error message if the user types an invalid email
 
 ### Screenshot
 
@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [TO_BE_UPDATED](TO_BE_UPDATED)
+- Live Site URL: [https://kens-visuals.github.io/huddle-landing-page-with-curves/](https://kens-visuals.github.io/huddle-landing-page-with-curves/)
 - Solution URL: [TO_BE_UPDATED](TO_BE_UPDATED)
 
 ## My process
@@ -41,38 +41,12 @@ Users should be able to:
 - SCSS custom properties
 - CSS Flexbox
 - CSS Grid
+- Vanilla JS
 - Mobile-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-### Useful resources
-
-- [TO_BE_UPDATED]() - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [TO_BE_UPDATED]() - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+That's it, this is the last challenge in **JUNIOR** level, and I managed to finish the whole section within a month. Which also means that I've reached my goal of finishing all projects in **JUNIOR** level before the end of the year. I'm really excited about this and what's coming next, in terms of projects and all the cool stuff I'm going to learn and practice. For the next level, I'm planning to learn React and start the upcoming projects with `React`, because I feel quite confident in `Vanilla JS` and `DOM manipulations`. So, I don't want to miss the chance of practicing `React` with all those awesome projects in **INTERMEDIATE** level.
 
 ## Author
 
