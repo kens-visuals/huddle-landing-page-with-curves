@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Live Site URL: [https://kens-visuals.github.io/huddle-landing-page-with-curves/](https://kens-visuals.github.io/huddle-landing-page-with-curves/)
-- Solution URL: [TO_BE_UPDATED](TO_BE_UPDATED)
+- Solution URL: [https://www.frontendmentor.io/solutions/huddle-landing-page-with-curves-built-with-vanilla-js-scss-and-bem-AUV7QIWYs](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curves-built-with-vanilla-js-scss-and-bem-AUV7QIWYs)
 
 ## My process
 

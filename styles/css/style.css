@@ -349,8 +349,8 @@ body {
   height: 10rem;
   background-image: url("./../../images/bg-footer-top-mobile.svg");
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: bottom;
+  background-size: cover;
   margin-top: 10rem;
 }
 @media (min-width: 810px) {
