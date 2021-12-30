@@ -74,17 +74,16 @@
     width: 26rem;
     margin: 0 auto 8rem auto;
 
-    // NOTE:
-    // opacity: 0;
-    // visibility: hidden;
-    // transform: translateY(-50%);
-    // transition: all 0.7s;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-50%);
+    transition: all 0.7s;
 
-    // &.is-visible {
-    //   opacity: 1;
-    //   visibility: visible;
-    //   transform: translateY(0);
-    // }
+    &.is-visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
 
     @media (min-width: 810px) {
       width: 52rem;
@@ -98,16 +97,15 @@
   }
 
   &__content {
-    // NOTE:
-    // opacity: 0;
-    // visibility: hidden;
-    // transform: translateY(50%);
-    // transition: all 0.7s;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(50%);
+    transition: all 0.7s;
 
-    // &.is-visible {
-    //   opacity: 1;
-    //   visibility: visible;
-    //   transform: translateY(0);
-    // }
+    &.is-visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
   }
 }
