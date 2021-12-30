@@ -502,6 +502,9 @@ body {
   align-self: flex-end;
   transition: all 0.3s;
 }
+.footer__btn:focus-visible {
+  outline: 0.3rem solid #f5faff;
+}
 .footer__btn:hover, .footer__btn:active {
   cursor: pointer;
   background-color: #ff8fd8;
